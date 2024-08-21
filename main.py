@@ -24,7 +24,7 @@ hexColor = input()
 def prGreen(skk):
     print("\033[92m {}\033[00m".format(skk))
 
-caption = f"Did you like this design? Want to express your thoughts? Praises ✨ or criticism 💢, let us know in the comments below!\n\nYou can also rate this design out of 1 to 10.\nSave it for inspiration!\n•\n•\nUI Designed by: {url}\n•\n•\n"
+caption = f"Did you like this design? Want to express your thoughts? Praises ✨ or criticism 💢, let us know in the comments below!\n\nYou can also rate this design out of 1 to 10.\nSave it for inspiration!\n•\n•\n•\n•\n"
 pyperclip.copy(caption)
 
 prGreen("\nCaption copied to clipboard! Write the tags manually.")
