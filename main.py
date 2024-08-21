@@ -65,7 +65,7 @@ i.generate(
 )
 
 # Generate type 3 image
-for x in range(4):
+for x in range(5):
     print(f"   -> Generating type 3({x+1}) image...")
     offset = -1080 * x
     i.generate(

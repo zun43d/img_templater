@@ -11,13 +11,13 @@
 	</head>
 	<body>
 		<section
-			class="section w-[1080px] h-[1080px] overflow-hidden flex justify-center pt-[112px]"
+			class="section w-[1080px] h-[1080px] overflow-hidden flex justify-center"
 		>
 			<div
-				class="w-[857px] overflow-hidden rounded-t-[20px]"
+				class="w-[857px] overflow-hidden rounded-t-[20px] mt-[112px]"
 				style="filter: drop-shadow(50px 4px 100px rgba(0, 0, 0, 0.3))"
 			>
-				<img src="{{ image | img_encode }}" alt="" />
+				<img src="{{ image | img_encode }}" alt="" class="object-cover w-full" />
 			</div>
 		</section>
 	</body>
