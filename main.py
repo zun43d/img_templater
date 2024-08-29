@@ -47,7 +47,7 @@ i.generate(
       "image": url
     },
     width=1080,
-    height=1080
+    height=1080+192
 )
 
 print("   -> Generating type 2 image...")
@@ -61,7 +61,7 @@ i.generate(
       "image": url
     },
     width=1080,
-    height=1080
+    height=1080+192
 )
 
 # Generate type 3 image
@@ -78,7 +78,7 @@ for x in range(5):
         "image": url
         },
         width=1080,
-        height=1080
+        height=1080+192
     )
 
 print("\nImages generated successfully! Exiting...")
